@@ -1,0 +1,10 @@
+def get_phone_bill(gb):
+
+    if gb> 15:
+        extra=gb-15
+        extra_charges = extra * 100
+        normal = 100
+    bill = int(normal + extra_charges)
+    return bill
+
+print(get_phone_bill(15.1))
